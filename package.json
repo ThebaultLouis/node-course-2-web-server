@@ -1,0 +1,11 @@
+{
+  "name": "first-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Louis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1"
+  }
+}
