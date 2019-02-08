@@ -1,6 +1,6 @@
 const express = require('express');
 const hbs = require('hbs');
-
+const port = process.envPORT || 3000;
 var app = express()
 
 app.use(express.static(__dirname + '/public'));
@@ -19,6 +19,6 @@ app.get('/help', (req, res) => {
 app.get('/bad', (req, res) => {
   res.render('bad.hbs');
 })
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('Server is up on port 3000');
 });

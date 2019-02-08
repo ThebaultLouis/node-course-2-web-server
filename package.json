@@ -2,6 +2,9 @@
   "name": "first-server",
   "version": "1.0.0",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "author": "Louis",
   "license": "MIT",
   "dependencies": {
